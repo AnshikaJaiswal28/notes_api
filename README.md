@@ -33,14 +33,12 @@ Follow the instructions below to set up and run the project locally.
 git clone https://github.com/yourusername/notes-api.git
 cd notes-api
 
-3. Create and Activate a Virtual Environment
+3. Create and Activate a Virtual Environment (Here 'myenv' is the virtual environment name I used. You can give it any name)
 Create a virtual environment to isolate your project dependencies - python -m venv myenv
 
-# Activate the virtual environment (for Windows)
-myenv\Scripts\activate
 
-# Activate the virtual environment (for macOS/Linux)
-source myenv/bin/activate
+Activate the virtual environment (for Windows) - myenv\Scripts\activate
+Activate the virtual environment (for macOS/Linux) - source myenv/bin/activate
 
 3. Install Project Dependencies
 Once the virtual environment is active, install the required Python packages: pip install -r requirements.txt
